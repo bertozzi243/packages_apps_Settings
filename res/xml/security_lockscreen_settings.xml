@@ -56,6 +56,18 @@
             android:defaultValue="false" />
 
         <SwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary"
+            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
+
+        <SwitchPreference
+            android:key="pulse_on_new_tracks_soli"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_soli_summary"
+            settings:controller="com.android.settings.display.PulseOnNewTracksSoliPreferenceController" />
+
+        <SwitchPreference
             android:key="security_setting_lockdown_enabled"
             android:title="@string/lockdown_settings_title"
             android:summary="@string/lockdown_settings_summary"
